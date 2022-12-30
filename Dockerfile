@@ -2,6 +2,6 @@ FROM ubuntu
 
 MAINTAINER dhairya aggarwal
 
-RUN sudo apt-get update
+RUN apt-get update
 
-CMD ["echo" , "Hello from Docker Container :D"]
+CMD ["echo", "Hello from Docker Container"]
